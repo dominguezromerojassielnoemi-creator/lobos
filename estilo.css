@@ -46,11 +46,16 @@ background: #3e2723;
 
 /* PRESENTACION */ 
 .presentacion{
-    background: radial-gradient(280px at 25% 10%, #4CAF50, #C8E6C9);
-    border-bottom: 3px solid #2E7D32;
-    position: relative;
+    background:
+    radial-gradient(circle at 20% 18%,
+        #8FD14F 0%,
+        #73BE3C 18%,
+        #5BA52F 38%,
+        #407D22 70%,
+        #2D5A1B 100%);
     overflow: hidden;
-    min-height: 430px;
+    border-bottom: 3px solid #214A17;
+    position: relative;
 }
 .presentacion .contenedor{
     position: relative;
