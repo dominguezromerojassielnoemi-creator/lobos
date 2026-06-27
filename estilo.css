@@ -46,10 +46,10 @@ background: #3e2723;
 
 /* PRESENTACION */ 
 .presentacion{
-  background: linear-gradient(to right, #2d5016, #4f7942, #6b8e23);
-  overflow: hidden;
-  border-bottom: 4px solid #3e2723; 
-}  
+    background: radial-gradient(280px at 25% 10%, #5F9EA0, #F0FFFF);
+    overflow: hidden;
+    border-bottom: 3px solid #044e8b;
+} 
 .introduccion-presentacion{
     float: left;
 }
