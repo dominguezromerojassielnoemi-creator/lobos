@@ -46,8 +46,7 @@ background: #3e2723;
 
 /* PRESENTACION */ 
 .presentacion{
-    background:
-        radial-gradient(circle at 20% 20%, #8BC34A 0%, #8BC34A 150px, #EAF7EA 151px);
+    background: radial-gradient(circle at 20% 20%, #A8E063 0%, #56AB2F 35%, #E8F5E9 100%);
     overflow: hidden;
     border-bottom: 3px solid #2E8B57;
 }
