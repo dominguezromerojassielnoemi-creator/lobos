@@ -46,7 +46,9 @@ background: #3e2723;
 
 /* PRESENTACION */ 
 .presentacion{
-    background: radial-gradient(circle at 20% 20%, #A8E063 0%, #56AB2F 35%, #E8F5E9 100%);
+    background:
+    radial-gradient(circle at 20% 20%, rgba(139,195,74,.55) 0%, rgba(139,195,74,.25) 20%, transparent 45%),
+    linear-gradient(to right, #d8f3dc, #ecf9ec);
     overflow: hidden;
     border-bottom: 3px solid #2E8B57;
 }
@@ -79,9 +81,10 @@ a.aprender-mas{
     text-decoration: none;
     text-shadow: 3px 4px 0 #000;
     border-radius: 10px;
-    background: linear-gradient(to top, #8b4513, #5d4037);
-    box-shadow: 0 8px 0 0 #3e2723,
-                0 0 25px 5px #dcedc8;
+    background: linear-gradient(to top,#4CAF50,#2E7D32);
+    box-shadow:
+        0 8px 0 0 #1B5E20,
+        0 0 18px 2px rgba(255,255,255,.45);
 } 
 a.aprender-mas:hover{
     box-shadow: 0 0 25px 5px #000;
