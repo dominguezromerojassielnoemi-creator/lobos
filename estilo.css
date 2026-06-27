@@ -46,14 +46,14 @@ background: #3e2723;
 
 /* PRESENTACION */ 
 .presentacion{
-    background:
-    radial-gradient(circle at 22% 12%,
-    #A5D66A 0%,
-    #5A8F29 28%,
-    #2F5D1E 60%,
-    #1E3D1C 100%);
+    background: radial-gradient(280px at 25% 10%, #4CAF50, #C8E6C9);
+    border-bottom: 3px solid #2E7D32;
+    position: relative;
     overflow: hidden;
-    border-bottom: 3px solid #18351A;
+    min-height: 430px;
+}
+.presentacion .contenedor{
+    position: relative;
 }
 .introduccion-presentacion{
     float: left;
@@ -95,12 +95,14 @@ a.aprender-mas:hover{
         0 0 20px rgba(255,255,255,.55);
 }
 .presentacion img{
-    float: right;
-    position: relative;
-    top: -70px;
-    right: 40px;
-    width: 220px;
+    position: absolute;
+    right: 30px;
+    top: 120px;
+
+    width: 250px;
     height: auto;
+
+    float: none;
 }
 
 /* ACCESO RAPIDO */
