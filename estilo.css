@@ -56,6 +56,7 @@ background: #3e2723;
     overflow: hidden;
     border-bottom: 3px solid #214A17;
     position: relative;
+    min-height:320px;
 }
 .presentacion .contenedor{
     position: relative;
@@ -101,13 +102,10 @@ a.aprender-mas:hover{
 }
 .presentacion img{
     position: absolute;
-    right: 30px;
-    top: 120px;
-
-    width: 250px;
+    right: 35px;
+    top: 55px;
+    width: 240px;
     height: auto;
-
-    float: none;
 }
 
 /* ACCESO RAPIDO */
